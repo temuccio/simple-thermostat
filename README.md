@@ -68,6 +68,7 @@ resources:
     - `names` _boolean_
     - `icons` _boolean_
     - `headings` _boolean_
+  - `disstep` _boolean_: If true disable step button up/down
   - `sensors`: _object_
     - `type`: _list|table_: How to render the sensors
     - `labels`: _boolean_: Whether to show labels/headings or not. Hiding here overrides hiding under root level `sensors` config
